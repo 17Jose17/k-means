@@ -21,6 +21,6 @@ This method is not a modification of the original algorithm but rather an altern
 
 This implementation is based on the paper:  
 **"Initialization for K-means clustering using Voronoi diagram"**, by [Damodar Reddy and Prasanta K. Jana]. Published in [Procedia Technology], [2012].  
-Link: [https://doi.org/10.1016/j.protcy.2012.05.116](https://doi.org/10.1016/j.protcy.2012.05.116)  
+Link: https://www.sciencedirect.com/science/article/pii/S2212017312003404
 
 The article is licensed under the **CC BY-NC-ND 3.0** license. This implementation is an independent work developed from scratch and adheres to the conditions of the license.
