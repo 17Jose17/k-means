@@ -72,7 +72,7 @@ def kMeansVoronoi(points, k):
         c, r = sphere(verx)
         vertex.append(Circ(r, c, verx))
 
-    vertex.sort(reverse=True)
+    vertex.sort(reverse = True)
 
     ccenter = []
     Test = []
