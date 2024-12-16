@@ -1,7 +1,3 @@
-import numpy as np
-from scipy.spatial import Delaunay
-from sklearn.cluster import KMeans
-
 def kMeansVoronoi(points, k):
 
     class point:
