@@ -15,10 +15,10 @@ def kMeansVoronoi(points, k):
             return np.sqrt(np.sum((self.coords - point.coords) ** 2))
         
         def __eq__(self, other):
-            return np.allclose(self.coords, other.coords, atol=1e-6)
+            return np.allclose(self.coords, other.coords, atol = 1e-6)
         
         def __hash__(self):
-            return hash(tuple(np.round(self.coords, decimals=6)))
+            return hash(tuple(np.round(self.coords, decimals = 6)))
 
     class Circ:
         def __init__(self, r, center, ps):
@@ -52,7 +52,7 @@ def kMeansVoronoi(points, k):
         
         S = np.array(S)
 
-        kmeans = KMeans(n_clusters=k, init=initial, n_init=10, random_state=42)
+        kmeans = KMeans(n_clusters=k, init=initial, n_init = 1, random_state = 42)
     
         kmeans.fit(S)
 
