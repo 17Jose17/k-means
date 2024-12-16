@@ -7,8 +7,8 @@ This repository contains different implementations and experiments related to th
 
 ## Repository Structure
 
-- `generic-implementation/`: Standard implementation of the k-means algorithm.  
-- `voronoi-implementation/`: Implementation based on the paper **"Initialization for K-means clustering using Voronoi diagram"**.  
+- `generic-implementation`: Standard implementation of the k-means algorithm.  
+- `voronoi-implementation`: Implementation based on the paper **"Initialization for K-means clustering using Voronoi diagram"**.  
 
 ## Paper Reference
 
