@@ -42,9 +42,6 @@ def kMeansVoronoi(points, k):
         return center, np.sqrt(r)
 
     def KM(S, k, initial):
-
-        for p in initial:
-            print(p)
         
         S = np.array(S)
 
